@@ -8,6 +8,9 @@ const app = express();
 app.use(cors());
 require('dotenv').config()
 
+const path = require('path')
+// app.use(express.static(path.join(__dirname,'build path)))
+app.use(express.static(path.join(__dirname,"./dist/e-shop")))
 
 const url = process.env.DB_URL
 

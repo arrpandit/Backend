@@ -1,13 +1,16 @@
 
 const express = require("express")
-const {addSeller,getSellerDetails} = require("../controllers/seller")
+const {signUp,login,allseller,deleteSeller,findById} = require("../controllers/seller")
 
 const app = express();
 
 const router = express.Router();
 
-router.post("/",addSeller)
-.get("/",getSellerDetails)
+router.post("/signup",signUp)
+.post("/login",login)
+.get("/",allseller)
+.delete("/:id",deleteSeller)
+.get("/:id",findById)
 
 
 module.exports = router

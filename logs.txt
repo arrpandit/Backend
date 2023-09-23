@@ -1,188 +1,244 @@
 
-1695150862192 : ::1 GET : /products
+1695463135058 : ::1 GET : /seller
 
-1695150931332 : ::1 GET : /products
+1695463182135 : ::1 POST : /seller
 
-1695150941039 : ::1 GET : /products/6509a4a7248536af89f4b597/
+1695463198532 : ::1 POST : /seller
 
-1695150945334 : ::1 GET : /products/6509a4a7248536af89f4b597
+1695463212035 : ::1 POST : /seller
 
-1695151021586 : ::1 GET : /products/1
+1695463234948 : ::1 POST : /seller
 
-1695151056243 : ::1 GET : /products/6509a4a7248536af89f4b597
+1695463248189 : ::1 POST : /seller
 
-1695151079185 : ::1 GET : /products/6509a4a7248536af89f4b597
+1695463255356 : ::1 POST : /seller
 
-1695151144657 : ::1 GET : /products
+1695463279463 : ::1 POST : /seller
 
-1695151144676 : ::1 GET : /products
+1695463291801 : ::1 POST : /seller
 
-1695151147194 : ::1 GET : /products/6509a57e248536af89f4b5a0
+1695463333468 : ::1 POST : /seller
 
-1695151151335 : ::1 GET : /products
+1695463342004 : ::1 GET : /seller
 
-1695151151353 : ::1 GET : /products
+1695463368739 : ::1 GET : /seller
 
-1695151153463 : ::1 GET : /products/6509a5d4248536af89f4b5a3
+1695463375900 : ::1 POST : /seller
 
-1695151157212 : ::1 GET : /products
+1695463417632 : ::1 GET : /seller
 
-1695151157223 : ::1 GET : /products
+1695463476500 : ::1 GET : /seller
 
-1695151159930 : ::1 GET : /products/6509e9797fc7ef6db27ca8e5
+1695463483094 : ::1 POST : /seller
 
-1695151162081 : ::1 GET : /products
+1695463555327 : ::1 POST : /seller
 
-1695151162097 : ::1 GET : /products
+1695463617963 : ::1 POST : /seller
 
-1695151165782 : ::1 GET : /products/6509a601248536af89f4b5a6
+1695463692910 : ::1 POST : /seller
 
-1695151168062 : ::1 GET : /products
+1695463751602 : ::1 POST : /seller
 
-1695151168074 : ::1 GET : /products
+1695463881867 : ::1 POST : /seller
 
-1695151172403 : ::1 GET : /products/6509a601248536af89f4b5a6
+1695463892924 : ::1 POST : /seller
 
-1695151174266 : ::1 GET : /products
+1695463920670 : ::1 GET : /seller
 
-1695151174279 : ::1 GET : /products
+1695464179890 : ::1 GET : /seller
 
-1695151176778 : ::1 GET : /products/6509ea7eca6ef9dfede999f6
+1695464210375 : ::1 GET : /seller
 
-1695151179597 : ::1 GET : /products
+1695464236055 : ::1 POST : /seller
 
-1695151179611 : ::1 GET : /products
+1695464326340 : ::1 POST : /seller
 
-1695151182235 : ::1 GET : /products
+1695464376886 : ::1 POST : /seller
 
-1695151298370 : ::1 GET : /products
+1695464385226 : ::1 GET : /seller
 
-1695151298407 : ::1 GET : /products
+1695464530796 : ::1 GET : /seller
 
-1695151309866 : ::1 GET : /products
+1695464539860 : ::1 POST : /seller
 
-1695151309880 : ::1 GET : /products
+1695464564885 : ::1 POST : /seller
 
-1695151312161 : ::1 GET : /products
+1695464602302 : ::1 POST : /seller
 
-1695151312172 : ::1 GET : /products
+1695464693805 : ::1 POST : /seller
 
-1695152441344 : ::1 GET : /seller
+1695464789282 : ::1 POST : /seller
 
-1695152494385 : ::1 POST : /seller
+1695464806481 : ::1 POST : /seller
 
-1695152501701 : ::1 GET : /seller
+1695464916565 : ::1 POST : /seller
 
-1695152715181 : ::1 GET : /products
+1695464953930 : ::1 POST : /seller
 
-1695152744019 : ::1 POST : /seller
+1695465047078 : ::1 POST : /seller
 
-1695152777466 : ::1 GET : /products
+1695465414052 : ::1 POST : /seller
 
-1695152777488 : ::1 GET : /products
+1695465428676 : ::1 POST : /seller
 
-1695152779448 : ::1 GET : /products
+1695465452499 : ::1 POST : /seller
 
-1695152782665 : ::1 GET : /products
+1695465463444 : ::1 GET : /seller
 
-1695152782695 : ::1 GET : /products
+1695465500509 : ::1 GET : /seller
 
-1695152785045 : ::1 GET : /products
+1695465506710 : ::1 POST : /seller
 
-1695152888902 : ::1 POST : /seller
+1695465522452 : ::1 POST : /seller
 
-1695152964461 : ::1 GET : /products
+1695465530325 : ::1 POST : /seller
 
-1695152964497 : ::1 GET : /products
+1695466309288 : ::1 POST : /seller/login
 
-1695152966175 : ::1 GET : /products
+1695466319111 : ::1 GET : /seller/
 
-1695153001230 : ::1 POST : /seller
+1695466445924 : ::1 GET : /seller/
 
-1695153027125 : ::1 GET : /seller
+1695466469251 : ::1 POST : /seller/login
 
-1695153079372 : ::1 GET : /products
+1695466485713 : ::1 POST : /seller/login
 
-1695153099921 : ::1 POST : /seller
+1695466762444 : ::1 POST : /seller/login
 
-1695153171377 : ::1 GET : /products
+1695466770646 : ::1 POST : /seller/login
 
-1695153193018 : ::1 POST : /seller
+1695466827156 : ::1 POST : /seller/login
 
-1695153213509 : ::1 GET : /products
+1695466847753 : ::1 POST : /seller/login
 
-1695153263837 : ::1 GET : /products
+1695466862437 : ::1 POST : /seller/login
 
-1695153286882 : ::1 POST : /seller
+1695466875686 : ::1 POST : /seller/login
 
-1695153370272 : ::1 GET : /seller
+1695466877898 : ::1 POST : /seller/login
 
-1695185946960 : ::1 GET : /products
+1695466902450 : ::1 POST : /seller/login
 
-1695195013365 : ::1 GET : /products
+1695466914215 : ::1 POST : /seller/login
 
-1695195017211 : ::1 GET : /products
+1695466931469 : ::1 POST : /seller/login
 
-1695399800327 : ::1 POST : /seller
+1695467099821 : ::1 POST : /seller/login
 
-1695399850163 : ::1 GET : /seller/650dbf783abd7e37d68c49e6
+1695468341524 : ::1 POST : /seller/login
 
-1695399891372 : ::1 POST : /seller
+1695468487837 : ::1 POST : /seller/login
 
-1695399911530 : ::1 POST : /seller
+1695469044034 : ::1 POST : /seller/login
 
-1695399936937 : ::1 GET : /seller
+1695469100287 : ::1 POST : /seller/login
 
-1695399949692 : ::1 GET : /products
+1695469120071 : ::1 POST : /seller/login
 
-1695399970904 : ::1 POST : /products
+1695469351918 : ::1 POST : /seller/login
 
-1695399977348 : ::1 POST : /products
+1695469403427 : ::1 POST : /seller/login
 
-1695399996537 : ::1 POST : /products
+1695469427414 : ::1 POST : /seller/login
 
-1695400012202 : ::1 POST : /products
+1695469513532 : ::1 GET : /seller
 
-1695400039082 : ::1 POST : /products
+1695469902994 : ::1 DELETE : /seller/650eb90d857043557262821a
 
-1695400053448 : ::1 POST : /products
+1695470245302 : ::1 GET : /seller
 
-1695400064419 : ::1 POST : /products
+1695470255381 : ::1 GET : /seller/650ebb2c8092e36f2a7c6570
 
-1695400080791 : ::1 POST : /products
+1695470270115 : ::1 GET : /seller/
 
-1695400107426 : ::1 POST : /users
+1695470294907 : ::1 GET : /seller/650ebb2c8092e36f2a7c6570
 
-1695400118196 : ::1 POST : /users
+1695470485032 : ::1 GET : /seller/650ebb2c8092e36f2a7c6570
 
-1695400212137 : ::1 GET : /products
+1695470490443 : ::1 DELETE : /seller/650ebb2c8092e36f2a7c6570
 
-1695400244083 : ::1 GET : /products/650dc03c3abd7e37d68c49ee
+1695470498104 : ::1 GET : /seller/650ebb2c8092e36f2a7c6570
 
-1695400255562 : ::1 GET : /products/
+1695470567855 : ::1 GET : /seller/650ebb2c8092e36f2a7c6570
 
-1695400261330 : ::1 GET : /products/650dc0293abd7e37d68c49ec
+1695470608803 : ::1 GET : /seller/650ebb2c8092e36f2a7c6570
 
-1695400266315 : ::1 GET : /products/
+1695470624130 : ::1 GET : /seller
 
-1695400273065 : ::1 GET : /products/650dc0673abd7e37d68c49f2
+1695470636337 : ::1 DELETE : /seller/650ebfeca92613b890648437
 
-1695400279071 : ::1 GET : /products/
+1695470644340 : ::1 GET : /seller/650ebfeca92613b890648437
 
-1695400297180 : ::1 DELETE : /products/650dc0293abd7e37d68c49ec
+1695470653633 : ::1 GET : /seller
 
-1695400303101 : ::1 GET : /products/650dc0293abd7e37d68c49ec
+1695470706598 : ::1 GET : /seller/login
 
-1695400360193 : ::1 GET : /products/650dc0293abd7e37d68c49ec
+1695470761404 : ::1 POST : /seller/login
 
-1695400366604 : ::1 DELETE : /products/650dc0293abd7e37d68c49ec/
+1695470840083 : ::1 POST : /seller/login
 
-1695400372392 : ::1 GET : /products/650dc0293abd7e37d68c49ec/
+1695470880044 : ::1 POST : /seller/login
 
-1695400481744 : ::1 GET : /products
+1695470966363 : ::1 POST : /seller/login
 
-1695400487094 : ::1 GET : /products
+1695470976547 : ::1 POST : /seller/login
 
-1695400498396 : ::1 GET : /products
+1695470998230 : ::1 POST : /seller/login
 
-1695400541875 : ::1 GET : /products
+1695471011774 : ::1 POST : /seller/login
+
+1695471047532 : ::1 POST : /seller/login
+
+1695471057847 : ::1 POST : /seller/login
+
+1695471138354 : ::1 POST : /seller/login
+
+1695471323105 : ::1 POST : /seller/login
+
+1695471526495 : ::1 POST : /seller/login
+
+1695471549922 : ::1 POST : /seller/login
+
+1695471573860 : ::1 POST : /seller/login
+
+1695471600742 : ::1 POST : /seller/login
+
+1695471634103 : ::1 POST : /seller/login
+
+1695471897510 : ::1 POST : /seller/login
+
+1695472057897 : ::1 POST : /seller/login
+
+1695472081140 : ::1 GET : /seller/
+
+1695472135009 : ::1 POST : /seller/signup
+
+1695472206703 : ::1 POST : /seller/signup
+
+1695472217598 : ::1 POST : /seller/signup
+
+1695472265283 : ::1 POST : /seller/signup
+
+1695472495299 : ::1 GET : /seller/
+
+1695472503807 : ::1 DELETE : /seller/650ebfc6a92613b890648433
+
+1695472510845 : ::1 GET : /seller/
+
+1695472519197 : ::1 DELETE : /seller/650eda07fdb3989592883245
+
+1695472525152 : ::1 GET : /seller/
+
+1695472535460 : ::1 DELETE : /seller/650eda591363c6f70cb45372
+
+1695472613585 : ::1 GET : /seller/
+
+1695472693333 : ::1 POST : /seller/signup
+
+1695472766155 : ::1 POST : /seller/signup
+
+1695472845362 : ::1 POST : /seller/signup
+
+1695472945692 : ::1 POST : /seller/signup
+
+1695473022404 : ::1 POST : /seller/login
