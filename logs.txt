@@ -242,3 +242,85 @@
 1695472945692 : ::1 POST : /seller/signup
 
 1695473022404 : ::1 POST : /seller/login
+
+1697818333491 : ::1 POST : /users
+
+1697819372403 : ::1 POST : /users
+
+1697819375021 : ::1 POST : /users
+
+1697819458065 : ::1 POST : /users/signup
+
+1697819561308 : ::ffff:127.0.0.1 POST : /users/signup
+
+1697819650881 : ::ffff:127.0.0.1 POST : /users/signup
+
+1697819759093 : ::ffff:127.0.0.1 POST : /users/signup
+
+1697819822986 : ::ffff:127.0.0.1 POST : /users/signup
+
+1697819968710 : ::ffff:127.0.0.1 POST : /users/login
+
+1697819998305 : ::ffff:127.0.0.1 POST : /users/login
+
+1697820163074 : ::ffff:127.0.0.1 DELETE : /users/delete
+
+1697820183025 : ::ffff:127.0.0.1 DELETE : /users/delete
+
+1697820249329 : ::ffff:127.0.0.1 DELETE : /users/delete
+
+1697820286290 : ::ffff:127.0.0.1 DELETE : /users/delete
+
+1697820722743 : ::1 POST : /users/signup
+
+1697820979782 : ::1 POST : /users/signup
+
+1697821064157 : ::1 POST : /users/signup
+
+1697821225543 : ::1 POST : /users/signup
+
+1697821707759 : ::ffff:127.0.0.1 DELETE : /users/login
+
+1697821756122 : ::ffff:127.0.0.1 DELETE : /users/login
+
+1697821764620 : ::ffff:127.0.0.1 POST : /users/login
+
+1697824648019 : ::1 POST : /users/login
+
+1697824707935 : ::1 POST : /users/login
+
+1697824805108 : ::1 POST : /users/login
+
+1697824868491 : ::1 POST : /users/login
+
+1697824886528 : ::1 POST : /users/login
+
+1697824945859 : ::1 POST : /users/login
+
+1697824987732 : ::1 POST : /users/login
+
+1697825062683 : ::1 POST : /users/login
+
+1697825143774 : ::ffff:127.0.0.1 POST : /users/login
+
+1697825203499 : ::1 POST : /users/login
+
+1697825219904 : ::ffff:127.0.0.1 POST : /users/login
+
+1697825237742 : ::ffff:127.0.0.1 POST : /users/login
+
+1697825254345 : ::ffff:127.0.0.1 POST : /users/login
+
+1697825270683 : ::ffff:127.0.0.1 POST : /users/login
+
+1697825280039 : ::ffff:127.0.0.1 POST : /users/login
+
+1697825299110 : ::ffff:127.0.0.1 POST : /users/login
+
+1697825331912 : ::ffff:127.0.0.1 POST : /users/login
+
+1697825354811 : ::1 POST : /users/login
+
+1697825397627 : ::1 POST : /users/signup
+
+1697825580693 : ::1 POST : /users/login

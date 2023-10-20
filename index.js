@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors')
 const productApirouter = require('./routes/products')
 const sellerApiRouter = require("./routes/seller")
+const userApiRouter = require("./routes/user")
 const {mongooseConn} = require('./connection')
 const {logs} = require('./middleware/product')
 const app = express();
@@ -27,6 +28,7 @@ mongooseConn("mongodb+srv://root1234:root@e-shop.aqq2esu.mongodb.net/?retryWrite
 //route
 app.use('/products',productApirouter)
 app.use("/seller",sellerApiRouter)
+app.use('/users',userApiRouter)
 
 
 //server listen
