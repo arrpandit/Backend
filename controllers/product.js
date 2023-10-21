@@ -1,11 +1,40 @@
 const product_details = require('../models/product')
-
+const axios = require('axios')
 async function allProducts(req,res){
     const allproducts =  await product_details.find({})
     return res.send(allproducts).status(200);
 } 
 
 async function addproduct(req,res){
+    // return res.json({"status" : "Success"})
+    // const opt = {
+    //     method : 'GET',
+    //     url : "https://fakestoreapi.com/products"
+    // }
+    // try{
+    //     const response = await axios(opt);
+        
+    //     // return res.json({"Data" : response.data[0]})
+    //     for(let i=0;i<response.data.length;i++)
+    //     {
+    //         const result = await product_details.create({
+    //             name: response.data[i].title,
+    //             price: response.data[i].price,
+    //             color: response.data[i].color,
+    //             category:response.data[i].category,
+    //             description:response.data[i].description,
+    //             image:response.data[i].image
+    //         })
+    //     }
+
+    //     return res.send({"Status" : "success"})
+       
+        
+    //     // console.log("data-------------",response.data[0]);
+    // }catch{
+    //     console.log("error------------")
+    //     return res.send({"Status" : "failed"})
+    // }
     const result = await product_details.create({
         name: req.body.name,
         price: req.body.price,

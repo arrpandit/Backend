@@ -1,6 +1,10 @@
 const user_detail = require('../models/user')
+const axios = require('axios')
 
-
+async function allUser(req, res) {
+    const result =await user_detail.find({});
+    return res.json({ "message": "Request success", "Data": result })
+}
 async function userLogin(req, res) {
     const email = req.body.email
     const password = req.body.password
@@ -20,21 +24,36 @@ async function userLogin(req, res) {
 }
 
 async function userSignup(req, res) {
-    console.log("body--------------", req.body)
-    const name = req.body.name;
-    const email = req.body.email
-    const password = req.body.password
-    await user_detail.create({ name, email, password });
-    // console.log("user------created",req.body);
-    return res.send({
-        status: "Success",
-        Message: "New seller created",
-        name: req.body.name,
-        email: req.body.email
-        // data: {
 
-        // }
-    })
+    const opt = {
+        method : 'GET',
+        url : "https://fakestoreapi.com/products"
+    }
+    try{
+        const response = await axios(opt);
+        return res.json({"Data" : response.data})
+        
+        // console.log("data-------------",response.data[0]);
+    }catch{
+        console.log("error------------")
+        return res.send({"Status" : "failed"})
+    }
+
+    // console.log("body--------------", req.body)
+    // const name = req.body.name;
+    // const email = req.body.email
+    // const password = req.body.password
+    // await user_detail.create({ name, email, password });
+    // // console.log("user------created",req.body);
+    // return res.send({
+    //     status: "Success",
+    //     Message: "New seller created",
+    //     name: req.body.name,
+    //     email: req.body.email
+    //     // data: {
+
+    //     // }
+    // })
 }
 
 async function deleteuser(req, res) {
@@ -48,6 +67,7 @@ async function deleteuser(req, res) {
 }
 
 module.exports = {
+    allUser,
     userLogin,
     userSignup,
     deleteuser

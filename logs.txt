@@ -324,3 +324,59 @@
 1697825397627 : ::1 POST : /users/signup
 
 1697825580693 : ::1 POST : /users/login
+
+1697861245105 : ::ffff:127.0.0.1 DELETE : /users/
+
+1697861251361 : ::ffff:127.0.0.1 GET : /users/
+
+1697861293598 : ::ffff:127.0.0.1 GET : /users/
+
+1697861315468 : ::ffff:127.0.0.1 GET : /users/
+
+1697861356778 : ::ffff:127.0.0.1 GET : /users/
+
+1697861378744 : ::ffff:127.0.0.1 GET : /users/
+
+1697861408775 : ::ffff:127.0.0.1 GET : /users/
+
+1697861544485 : ::1 POST : /users/login
+
+1697886403724 : ::1 POST : /users/login
+
+1697888898771 : ::ffff:127.0.0.1 POST : /users/signup
+
+1697889003489 : ::1 GET : /products/1
+
+1697889147865 : ::1 GET : /products/allProducts
+
+1697889236090 : ::1 GET : /products/allProducts
+
+1697889633491 : ::1 POST : /products/addproduct
+
+1697890558574 : ::1 POST : /products/addproduct
+
+1697890580697 : ::1 POST : /products/
+
+1697890638400 : ::1 POST : /products/
+
+1697890657718 : ::1 POST : /products/
+
+1697890681737 : ::1 POST : /products/
+
+1697890693867 : ::1 POST : /products/
+
+1697890704946 : ::1 POST : /products/
+
+1697890715675 : ::1 POST : /products/
+
+1697890815589 : ::1 POST : /products/
+
+1697890885955 : ::1 POST : /products/
+
+1697890973386 : ::1 POST : /products/
+
+1697891019977 : ::1 POST : /products/
+
+1697891045203 : ::1 GET : /products/
+
+1697891240537 : ::1 GET : /products/6533c2cc087e9060d4572f4b
