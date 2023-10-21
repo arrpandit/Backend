@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.post('/login',userLogin)
 .post('/signup',userSignup)
-.delete('/delete',deleteuser)
+.delete('/delete/:id',deleteuser)
 .get('/',allUser)
 
 module.exports = router;

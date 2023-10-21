@@ -9,7 +9,6 @@ async function userLogin(req, res) {
     const email = req.body.email
     const password = req.body.password
     let result = await user_detail.find({ email })
-    console.log("result-----------", result)
     if (result) {
         return res.json({
             status: "Success",
@@ -25,45 +24,47 @@ async function userLogin(req, res) {
 
 async function userSignup(req, res) {
 
-    const opt = {
-        method : 'GET',
-        url : "https://fakestoreapi.com/products"
-    }
-    try{
-        const response = await axios(opt);
-        return res.json({"Data" : response.data})
-        
-        // console.log("data-------------",response.data[0]);
-    }catch{
-        console.log("error------------")
-        return res.send({"Status" : "failed"})
-    }
+    // const opt = {
+    //     method : 'GET',
+    //     url : "https://fakestoreapi.com/products"
+    // }
+    // try{
+    //     const response = await axios(opt);
+    //     return res.json({"Data" : response.data})
+
+    //     // console.log("data-------------",response.data[0]);
+    // }catch{
+    //     console.log("error------------")
+    //     return res.send({"Status" : "failed"})
+    // }
 
     // console.log("body--------------", req.body)
-    // const name = req.body.name;
-    // const email = req.body.email
-    // const password = req.body.password
-    // await user_detail.create({ name, email, password });
-    // // console.log("user------created",req.body);
-    // return res.send({
-    //     status: "Success",
-    //     Message: "New seller created",
-    //     name: req.body.name,
-    //     email: req.body.email
-    //     // data: {
+    const name = req.body.name;
+    const email = req.body.email
+    const password = req.body.password
+    await user_detail.create({ name, email, password });
+    // console.log("user------created",req.body);
+    return res.send({
+        status: "Success",
+        Message: "New seller created",
+        name: req.body.name,
+        email: req.body.email
+        // data: {
 
-    //     // }
-    // })
+        // }
+    })
 }
 
 async function deleteuser(req, res) {
-    const email = req.body.email
-    let result = await user_detail.deleteOne({ email });
-    if (result) {
-        res.send({ "Message": `User Not present with ${email}` })
+    // console.log("res------sss-----",req.params.id)
+    let id = req.params.id
+    // const email = req.body.email
+    let result = await user_detail.deleteOne({ id });
+    if (!result) {
+        res.send({ "Message": `User Not present with ${id}` })
     }
 
-    res.send({ "Message": "User deleted", "Data": email })
+    res.send({ "Message": "User deleted", "Data": id })
 }
 
 module.exports = {
