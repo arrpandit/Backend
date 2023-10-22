@@ -69,7 +69,7 @@ async function updateProduct(req,res){
     if(!updatedProducts){
         return res.send({Msg : "Product not available"})
     }
-    console.log("update----",data);
+    
     return res.send(updatedProducts);
 }
 
