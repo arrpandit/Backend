@@ -1,6 +1,6 @@
 const express = require("express");
 const product_details = require("../models/product")
-const { allProducts, addproduct, updateProduct, getProductByID, deleteProduct } = require("../controllers/product")
+const { allProducts, addproduct, updateProduct, getProductByID, deleteProduct,searchProduct ,nothingSearch} = require("../controllers/product")
 
 const router = express.Router();
 
@@ -12,19 +12,21 @@ const router = express.Router();
 // router.delete("/:id", deleteProduct)
 
 //use this way also
-// router.get("/", allProducts)
-// .post("/", addproduct)
-// .get("/:id", getProductByID)
-// .patch("/:id", updateProduct)
-// .delete("/:id", deleteProduct)
+router.get("/", allProducts)
+.post("/", addproduct)
+.get("/:id", getProductByID)
+.put("/:id", updateProduct)
+.delete("/:id", deleteProduct)
+.get("/search/:id",searchProduct)
+// .get("/search",nothingSearch)
 
 
 //use this way also
-router.get("/", allProducts)
-.post("/", addproduct)
-router.route("/:id")
-.get(getProductByID)
-.patch(updateProduct)
-.delete(deleteProduct)
+// router.get("/", allProducts)
+// .post("/", addproduct)
+// router.route("/:id")
+// .get("/:id",getProductByID)
+// .put("/:id",updateProduct)
+// .delete("/:id",deleteProduct)
 
 module.exports = router
