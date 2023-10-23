@@ -55,15 +55,16 @@ async function getProductByID(req, res) {
 }
 
 async function updateProduct(req, res) {
+    // console.log("Update products-----------",req.body);
     const data = req.params.id
     const updatedProducts = await product_details.findByIdAndUpdate({ _id: req.params.id }, {
-        name: req.body.name,
+        // name: req.body.name,
         price: req.body.price,
         color: req.body.color,
         category: req.body.category,
         description: req.body.description,
-        image: req.body.image
-    });
+        // image: req.body.image
+    }, { upsert: true });
     //will check
     // const updatedProducts = await product_details.updateOne({id:data},{
     // name: req.body.name,
@@ -89,11 +90,47 @@ async function deleteProduct(req, res) {
     return res.send({ msg: "Not deleted" })
 }
 
+// async function nothingSearch(req,res){
+//     res.send({"status" : "Nothing to search"})
+// }
+
+async function searchProduct(req, res) {
+    //if we not path any query then backend crassed ?
+    if(!req.params){
+        return res.send({ "Status": "Failed", "Message": "Product Not Available" })
+    }
+    let key = req.params.id
+    let id = key.charAt(0).toUpperCase() + key.slice(1);
+    console.log(("query-------------",req.params));
+    // return res.send({"sabs":"sjas"})
+    if (id) {
+
+
+        let data = await product_details.find(
+            {
+                // "$or": [
+                //     { "category":{$regex:key} }
+                // ],
+                "$or": [
+                    { "name": { $regex: id } }
+                ]
+            }
+        )
+        if (data.length > 0) {
+            return res.send({ "Status": "Success", "Data": data })
+        }
+    }
+    return res.send({ "Status": "Failed", "Message": "Product Not Available" })
+
+
+}
 
 module.exports = {
     allProducts,
     addproduct,
     getProductByID,
     updateProduct,
-    deleteProduct
+    deleteProduct,
+    searchProduct,
+    // nothingSearch
 }
